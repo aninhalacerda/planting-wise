@@ -17,3 +17,7 @@ get '/' do
   entries = Entry.all
   entries.to_json
 end
+
+post '/umidade/:umidade' do
+  Entry.create(umidade: params[:umidade])
+end
