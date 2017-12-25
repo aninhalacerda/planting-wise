@@ -3,4 +3,5 @@ source 'https://rubygems.org' do
 
   gem 'sinatra'
   gem 'mongoid', '~> 6.1.0'
+  gem 'rake'
 end
